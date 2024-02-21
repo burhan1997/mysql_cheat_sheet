@@ -325,3 +325,5 @@ WHERE client.client_id IN (
                                 GROUP BY client_id) AS total_client_sales
                           WHERE totals > 100000
 );
+
+
